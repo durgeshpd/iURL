@@ -73,21 +73,15 @@ JWT_SECRET=your_jwt_secret
 
 🔗 API Endpoints (Backend)
 
-Method	Endpoint	Description
-
-POST	/signup	Register a new user
-
-POST	/login	Login user, return JWT
-
-GET	/user/profile	Get logged-in user's info
-
-GET	/user/urls	Get user's short URLs
-
-POST	/url	Create a short URL
-
-GET	/url/:shortId	Redirect + track click
-
-GET	/analytics/:id	Get click history
+|Method 	|Endpoint	      |Description              |
+|---------|---------------|-------------------------|
+|POST  	  |/signup	      |Register a new user      |
+|POST	    |/login	        |Login user, return JWT   |
+|GET	    |/user/profile	|Get logged-in user's info|
+|GET	    |/user/urls	    |Get user's short URLs    |
+|POST	    |/url	          |Create a short URL       |
+|GET	    |/url/:shortId	|Redirect + track click   |
+|GET	    |/analytics/:id	|Get click history        |
 
 📌 Notes
 
