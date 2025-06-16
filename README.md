@@ -1,4 +1,5 @@
 🔗 URL Shortener App
+
 A full-stack URL shortening service with user authentication, analytics, and a modern React frontend using React Query, Node.js, MongoDB, and JWT-based Auth.
 
 🚀 Features
