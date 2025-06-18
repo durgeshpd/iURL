@@ -83,7 +83,7 @@ const Dashboard = () => {
   if (profileError || urlError) return <p className="p-8 text-red-500">Error loading data</p>;
 
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
+    <div className="p-8 min-h-screen bg-white text-gray-900 dark:bg-white dark:text-gray-900">
       <div className="max-w-2xl mx-auto bg-white p-6 rounded shadow">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold">Dashboard</h2>

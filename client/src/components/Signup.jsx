@@ -21,9 +21,11 @@ const Signup = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-200">
+    <div className="flex justify-center items-center min-h-screen bg-white text-gray-900 dark:bg-white dark:text-gray-900">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
-        <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">Sign Up</h2>
+        <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
+          Sign Up
+        </h2>
         {error && <div className="text-red-500 text-center mb-4">{error}</div>}
         <form onSubmit={handleSignup}>
           <input
@@ -50,13 +52,18 @@ const Signup = () => {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-          <button type="submit" className="w-full py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+          <button
+            type="submit"
+            className="w-full py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+          >
             Sign Up
           </button>
         </form>
         <p className="text-center mt-4">
           Already have an account?{" "}
-          <a href="/login" className="text-blue-500 hover:text-blue-700">Login</a>
+          <a href="/login" className="text-blue-500 hover:text-blue-700">
+            Login
+          </a>
         </p>
       </div>
     </div>
