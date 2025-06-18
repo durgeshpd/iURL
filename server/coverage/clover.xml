@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1750235190787" clover="3.2.0">
+  <project timestamp="1750235190788" name="All files">
+    <metrics statements="142" coveredstatements="117" conditionals="18" coveredconditionals="7" methods="15" coveredmethods="9" elements="175" coveredelements="133" complexity="0" loc="142" ncloc="142" packages="6" files="9" classes="9"/>
+    <package name="server">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="app.js" path="C:\Users\durge\Documents\iURL\server\app.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.controllers">
+      <metrics statements="74" coveredstatements="50" conditionals="16" coveredconditionals="6" methods="11" coveredmethods="5"/>
+      <file name="url.js" path="C:\Users\durge\Documents\iURL\server\controllers\url.js">
+        <metrics statements="32" coveredstatements="25" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="57" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+      </file>
+      <file name="user.js" path="C:\Users\durge\Documents\iURL\server\controllers\user.js">
+        <metrics statements="42" coveredstatements="25" conditionals="10" coveredconditionals="3" methods="8" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.middlewares">
+      <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="authenticateJWT.js" path="C:\Users\durge\Documents\iURL\server\middlewares\authenticateJWT.js">
+        <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.models">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="url.js" path="C:\Users\durge\Documents\iURL\server\models\url.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+      <file name="user.js" path="C:\Users\durge\Documents\iURL\server\models\user.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.routes">
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="url.js" path="C:\Users\durge\Documents\iURL\server\routes\url.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+      <file name="user.js" path="C:\Users\durge\Documents\iURL\server\routes\user.js">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.tests">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="setup.js" path="C:\Users\durge\Documents\iURL\server\tests\setup.js">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -59,7 +59,6 @@ const getUserUrls = async (req, res) => {
   try {
     const urls = await URL.find({ userId: req.user.userId });
 
-    // Add totalClicks dynamically
     const formatted = urls.map(url => ({
       _id: url._id,
       shortId: url.shortId,

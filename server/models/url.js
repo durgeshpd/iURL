@@ -5,16 +5,16 @@ const urlSchema = new mongoose.Schema(
     shortId: {
       type: String,
       required: true,
-      unique: true,  // Ensure the shortId is unique
+      unique: true,
     },
     redirectURL: {
       type: String,
       required: true,
     },
-    visitedHistory: [{ timestamp: { type: Number } }],  // Array of visit timestamps
+    visitedHistory: [{ timestamp: { type: Number } }], 
     userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",  // Reference to the User model
+      ref: "User",
       required: true,
     },
   },
